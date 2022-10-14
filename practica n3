@@ -1,0 +1,37 @@
+package com.mycompany.practica3;
+
+import javax.swing.JOptionPane;
+
+public class practica3 {
+    //Atributos
+    public String nombre;
+    public String apellidos;
+    public int edad;
+    public String correo;
+    
+    
+    
+    public void leerAtributos() {
+        nombre = JOptionPane.showInputDialog("ingrese su nombre: "));
+        apellidos = JOptionPane.showInputDialog("ingrese sus apellidos: "));
+        edad = Interger.parseInt(JOptionPane.showInputDialog("ingrese su edad:"));
+        correo = JOptionPane.showInputDialog("ingrese su correo electronico"));
+        
+        
+        
+        
+    }
+    public void mostrarAtributos() {
+        JOptionPane.showInternalMessageDialog(null, "el nombre registrado es: " + nombre);
+        JOptionPane.showInternalConfirmDialog(null, "los apellidos son: " + apellidos);
+        JOptionPane.showInternalConfirmDialog(null, "la edad edad ingresada: " + edad);
+        JOptionPane.showInternalConfirmDialog(null, "el correo registrado es: " + correo);
+        
+        
+        
+    }
+    
+    
+    
+
+}
